@@ -1,0 +1,3069 @@
+{
+  "warnings": {},
+  "result": [
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-17"
+          },
+          "delivery": {
+            "dateMin": "2024-04-20",
+            "dateMax": "2024-04-22"
+          },
+          "cutoffUtc": "2024-04-17T23:45:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 20,
+        "minWeight": 0,
+        "maxHeight": 60,
+        "maxWidth": 60,
+        "maxVolumetricWeight": 20,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 60
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 10
+            },
+            {
+              "percentagePriceUnits": 5.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "dpd",
+        "name": "DPD Drop Off",
+        "courier": "DPD",
+        "courierSlug": "dpd"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 569,
+            "name": "Base Price"
+          },
+          {
+            "amount": 114,
+            "name": "TAX"
+          }
+        ],
+        "gross": 683,
+        "net": 569,
+        "tax": 114
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 12,
+            "net": 10,
+            "tax": 2
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 60,
+            "net": 50,
+            "tax": 10
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        }
+      ],
+      "tags": ["dropoff", "requiresprinter", "paypointshop", "decorated"],
+      "metadata": {
+        "Group": "Fast",
+        "DropOffProviderGroup": "DPD",
+        "Rating:Reliability": 4.5,
+        "Rating:Delivery": 3.5,
+        "Rating:Popularity": 9
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-18"
+          },
+          "delivery": {
+            "dateMin": "2024-04-21",
+            "dateMax": "2024-04-23"
+          },
+          "cutoffUtc": "2024-04-18T23:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-19"
+          },
+          "delivery": {
+            "dateMin": "2024-04-22",
+            "dateMax": "2024-04-24"
+          },
+          "cutoffUtc": "2024-04-19T23:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-22"
+          },
+          "delivery": {
+            "dateMin": "2024-04-25",
+            "dateMax": "2024-04-27"
+          },
+          "cutoffUtc": "2024-04-22T23:45:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 2,
+        "minWeight": 0,
+        "maxHeight": 16,
+        "maxWidth": 35,
+        "maxVolumetricWeight": 999,
+        "maxVolume": 9000,
+        "maxLengthPlusGirth": 45
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 5000,
+              "fixedPriceUnits": 0
+            },
+            {
+              "percentagePriceUnits": 5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "royalmail-int_2606_2608",
+        "name": "Royal Mail 48 Tracked Small Collection",
+        "courier": "Royal Mail",
+        "courierSlug": "royal-mail"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 274,
+            "name": "Base Price"
+          },
+          {
+            "amount": 55,
+            "name": "TAX"
+          }
+        ],
+        "gross": 329,
+        "net": 274,
+        "tax": 55
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 5000,
+            "maxProtection": 5000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "driverbringslabel",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Driver Brings Label",
+          "tags": [],
+          "metadata": {
+            "group": "Label"
+          }
+        }
+      ],
+      "tags": ["saturdaycollection", "showdimensions", "decorated"],
+      "metadata": {
+        "Group": "Fast",
+        "DropOffProviderGroup": "ROYALMAIL",
+        "Rating:Reliability": 4,
+        "Rating:Delivery": 4.5,
+        "Rating:Popularity": 59
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-18"
+          },
+          "delivery": {
+            "dateMin": "2024-04-21",
+            "dateMax": "2024-04-23"
+          },
+          "cutoffUtc": "2024-04-18T20:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-19"
+          },
+          "delivery": {
+            "dateMin": "2024-04-22",
+            "dateMax": "2024-04-24"
+          },
+          "cutoffUtc": "2024-04-19T20:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-22"
+          },
+          "delivery": {
+            "dateMin": "2024-04-25",
+            "dateMax": "2024-04-27"
+          },
+          "cutoffUtc": "2024-04-22T20:45:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 30,
+        "minWeight": 0,
+        "maxHeight": 180,
+        "maxWidth": 180,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 180
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 100
+            },
+            {
+              "percentagePriceUnits": 5.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "hermes-light-and-large",
+        "name": "Evri Light and Large",
+        "courier": "Evri Collection",
+        "courierSlug": "hermes"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 400,
+            "name": "Base Price"
+          },
+          {
+            "amount": 80,
+            "name": "TAX"
+          }
+        ],
+        "gross": 480,
+        "net": 400,
+        "tax": 80
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 120,
+            "net": 100,
+            "tax": 20
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "signature",
+          "price": {
+            "gross": 108,
+            "net": 90,
+            "tax": 18
+          },
+          "name": "Signature",
+          "tags": [],
+          "metadata": {}
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 48,
+            "net": 40,
+            "tax": 8
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        },
+        {
+          "key": "smsalert",
+          "price": {
+            "gross": 36,
+            "net": 30,
+            "tax": 6
+          },
+          "name": "\uD83D\uDCF1 SMS Delivery Alert",
+          "tags": [],
+          "metadata": {
+            "defaultselected": false,
+            "requires": ["mobile"]
+          }
+        }
+      ],
+      "tags": [
+        "requiresprinter",
+        "hermesautosignature",
+        "hermeslarge",
+        "largeservice",
+        "saturdaycollection",
+        "decorated"
+      ],
+      "metadata": {
+        "Group": "Slow",
+        "Rating:Reliability": 2,
+        "Rating:Delivery": 3.5,
+        "Rating:Popularity": 5
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-17"
+          },
+          "delivery": {
+            "dateMin": "2024-04-20",
+            "dateMax": "2024-04-22"
+          },
+          "cutoffUtc": "2024-04-17T21:00:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 15,
+        "minWeight": 0,
+        "maxVolumetricWeight": 15,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 120
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2500,
+              "fixedPriceUnits": 6
+            },
+            {
+              "percentagePriceUnits": 5.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "myhermes-parcelshop",
+        "name": "Evri ParcelShop",
+        "courier": "Evri Drop-off",
+        "courierSlug": "myhermes"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 195,
+            "name": "Base Price"
+          },
+          {
+            "amount": 39,
+            "name": "TAX"
+          }
+        ],
+        "gross": 234,
+        "net": 195,
+        "tax": 39
+      },
+      "availableExtras": [
+        {
+          "key": "printinstore",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Print in Store",
+          "tags": [],
+          "metadata": {
+            "group": "Label"
+          }
+        },
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 7,
+            "net": 6,
+            "tax": 1
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2500,
+            "maxProtection": 2500,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "signature",
+          "price": {
+            "gross": 108,
+            "net": 90,
+            "tax": 18
+          },
+          "name": "Signature",
+          "tags": [],
+          "metadata": {}
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 12,
+            "net": 10,
+            "tax": 2
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        },
+        {
+          "key": "smsalert",
+          "price": {
+            "gross": 36,
+            "net": 30,
+            "tax": 6
+          },
+          "name": "\uD83D\uDCF1 SMS Delivery Alert",
+          "tags": [],
+          "metadata": {
+            "defaultselected": false,
+            "requires": ["mobile"]
+          }
+        }
+      ],
+      "tags": ["dropoff", "printinstore", "printinstore", "decorated"],
+      "metadata": {
+        "Group": "Medium",
+        "DropOffProviderGroup": "MYHRMS",
+        "Rating:Reliability": 5,
+        "Rating:Delivery": 4.5,
+        "Rating:Popularity": 424
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-18"
+          },
+          "delivery": {
+            "dateMin": "2024-04-21",
+            "dateMax": "2024-04-23"
+          },
+          "cutoffUtc": "2024-04-18T20:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-19"
+          },
+          "delivery": {
+            "dateMin": "2024-04-22",
+            "dateMax": "2024-04-24"
+          },
+          "cutoffUtc": "2024-04-19T20:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-22"
+          },
+          "delivery": {
+            "dateMin": "2024-04-25",
+            "dateMax": "2024-04-27"
+          },
+          "cutoffUtc": "2024-04-22T20:45:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 30,
+        "minWeight": 0,
+        "maxHeight": 70,
+        "maxWidth": 70,
+        "maxVolumetricWeight": 25,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 135
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 19
+            },
+            {
+              "percentagePriceUnits": 5.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "parcelforce-express-24",
+        "name": "Parcelforce Worldwide Express 24",
+        "courier": "Parcelforce",
+        "courierSlug": "parcelforce"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 1025,
+            "name": "Base Price"
+          },
+          {
+            "amount": 205,
+            "name": "TAX"
+          }
+        ],
+        "gross": 1230,
+        "net": 1025,
+        "tax": 205
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 23,
+            "net": 19,
+            "tax": 4
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 120,
+            "net": 100,
+            "tax": 20
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        },
+        {
+          "key": "driverbringslabel",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Driver Brings Label",
+          "tags": [],
+          "metadata": {
+            "group": "Label"
+          }
+        }
+      ],
+      "tags": ["decorated"],
+      "metadata": {
+        "Group": "Fast",
+        "Rating:Reliability": 3.5,
+        "Rating:Delivery": 3.5,
+        "Rating:Popularity": 18
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-17"
+          },
+          "delivery": {
+            "dateMin": "2024-04-20",
+            "dateMax": "2024-04-22"
+          },
+          "cutoffUtc": "2024-04-17T21:00:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 25,
+        "minWeight": 0,
+        "maxVolumetricWeight": 25,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 135
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 10
+            },
+            {
+              "percentagePriceUnits": 5.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "parcelforce-express-48-drop-off",
+        "name": "Parcelforce Worldwide Express 48 Drop Off",
+        "courier": "Parcelforce",
+        "courierSlug": "parcelforce"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 805,
+            "name": "Base Price"
+          },
+          {
+            "amount": 161,
+            "name": "TAX"
+          }
+        ],
+        "gross": 966,
+        "net": 805,
+        "tax": 161
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 12,
+            "net": 10,
+            "tax": 2
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 96,
+            "net": 80,
+            "tax": 16
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        }
+      ],
+      "tags": ["dropoff", "requiresprinter", "decorated"],
+      "metadata": {
+        "Group": "Medium",
+        "DropOffProviderGroup": "PRCLFORCE",
+        "Rating:Reliability": 4.5,
+        "Rating:Delivery": 4.5,
+        "Rating:Popularity": 15
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-18"
+          },
+          "delivery": {
+            "dateMin": "2024-04-21",
+            "dateMax": "2024-04-23"
+          },
+          "cutoffUtc": "2024-04-18T15:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-19"
+          },
+          "delivery": {
+            "dateMin": "2024-04-22",
+            "dateMax": "2024-04-24"
+          },
+          "cutoffUtc": "2024-04-19T15:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-22"
+          },
+          "delivery": {
+            "dateMin": "2024-04-25",
+            "dateMax": "2024-04-27"
+          },
+          "cutoffUtc": "2024-04-22T15:45:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 20,
+        "minWeight": 0,
+        "maxVolumetricWeight": 20,
+        "maxLengthPlusGirth": 125
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 10
+            },
+            {
+              "percentagePriceUnits": 5.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "dx-48",
+        "name": "DX48",
+        "courier": "DX",
+        "courierSlug": "dx"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 630,
+            "name": "Base Price"
+          },
+          {
+            "amount": 126,
+            "name": "TAX"
+          }
+        ],
+        "gross": 756,
+        "net": 630,
+        "tax": 126
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 12,
+            "net": 10,
+            "tax": 2
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 72,
+            "net": 60,
+            "tax": 12
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        }
+      ],
+      "tags": ["volumetricweight", "decorated"],
+      "metadata": {
+        "Group": "Medium",
+        "Rating:Reliability": 3.5,
+        "Rating:Delivery": 4.5,
+        "Rating:Popularity": 5
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-17"
+          },
+          "delivery": {
+            "dateMin": "2024-04-20",
+            "dateMax": "2024-04-22"
+          },
+          "cutoffUtc": "2024-04-17T21:00:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 15,
+        "minWeight": 0,
+        "maxVolumetricWeight": 15,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 120
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 5
+            },
+            {
+              "percentagePriceUnits": 5.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "myhermes-parcelshop-next-day",
+        "name": "Evri ParcelShop Next Day",
+        "courier": "Evri Drop-off",
+        "courierSlug": "myhermes"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 999,
+            "name": "Base Price"
+          },
+          {
+            "amount": 200,
+            "name": "TAX"
+          }
+        ],
+        "gross": 1199,
+        "net": 999,
+        "tax": 200
+      },
+      "availableExtras": [
+        {
+          "key": "printinstore",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Print in Store",
+          "tags": [],
+          "metadata": {
+            "group": "Label"
+          }
+        },
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 6,
+            "net": 5,
+            "tax": 1
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "signature",
+          "price": {
+            "gross": 108,
+            "net": 90,
+            "tax": 18
+          },
+          "name": "Signature",
+          "tags": [],
+          "metadata": {}
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 108,
+            "net": 90,
+            "tax": 18
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        },
+        {
+          "key": "smsalert",
+          "price": {
+            "gross": 36,
+            "net": 30,
+            "tax": 6
+          },
+          "name": "\uD83D\uDCF1 SMS Delivery Alert",
+          "tags": [],
+          "metadata": {
+            "defaultselected": false,
+            "requires": ["mobile"]
+          }
+        }
+      ],
+      "tags": [
+        "dropoff",
+        "printinstore",
+        "hermesnextday",
+        "printinstore",
+        "decorated"
+      ],
+      "metadata": {
+        "Group": "Fast",
+        "DropOffProviderGroup": "MYHRMS",
+        "Rating:Reliability": 5,
+        "Rating:Delivery": 4,
+        "Rating:Popularity": 84
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-18"
+          },
+          "delivery": {
+            "dateMin": "2024-04-21",
+            "dateMax": "2024-04-23"
+          },
+          "cutoffUtc": "2024-04-18T10:30:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-19"
+          },
+          "delivery": {
+            "dateMin": "2024-04-22",
+            "dateMax": "2024-04-24"
+          },
+          "cutoffUtc": "2024-04-19T10:30:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-22"
+          },
+          "delivery": {
+            "dateMin": "2024-04-25",
+            "dateMax": "2024-04-27"
+          },
+          "cutoffUtc": "2024-04-22T10:30:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 25,
+        "minWeight": 0,
+        "maxHeight": 70,
+        "maxWidth": 70,
+        "maxVolumetricWeight": 25,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 110
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 10
+            },
+            {
+              "percentagePriceUnits": 6.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "parcelforce-by-9am",
+        "name": "Parcelforce Worldwide by 9am",
+        "courier": "Parcelforce",
+        "courierSlug": "parcelforce"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 2199,
+            "name": "Base Price"
+          },
+          {
+            "amount": 440,
+            "name": "TAX"
+          }
+        ],
+        "gross": 2639,
+        "net": 2199,
+        "tax": 440
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 12,
+            "net": 10,
+            "tax": 2
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 252,
+            "net": 210,
+            "tax": 42
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        },
+        {
+          "key": "driverbringslabel",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Driver Brings Label",
+          "tags": [],
+          "metadata": {
+            "group": "Label"
+          }
+        }
+      ],
+      "tags": ["decorated"],
+      "metadata": {
+        "Group": "Fast",
+        "Rating:Reliability": 2.5,
+        "Rating:Delivery": 4.5,
+        "Rating:Popularity": 0
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-18"
+          },
+          "delivery": {
+            "dateMin": "2024-04-21",
+            "dateMax": "2024-04-23"
+          },
+          "cutoffUtc": "2024-04-18T20:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-19"
+          },
+          "delivery": {
+            "dateMin": "2024-04-22",
+            "dateMax": "2024-04-24"
+          },
+          "cutoffUtc": "2024-04-19T20:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-22"
+          },
+          "delivery": {
+            "dateMin": "2024-04-25",
+            "dateMax": "2024-04-27"
+          },
+          "cutoffUtc": "2024-04-22T20:45:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 30,
+        "minWeight": 0,
+        "maxVolumetricWeight": 30,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 250
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 30
+            },
+            {
+              "percentagePriceUnits": 5.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "parcelforce-large-48",
+        "name": "Parcelforce Worldwide Large 48",
+        "courier": "Parcelforce",
+        "courierSlug": "parcelforce"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 2875,
+            "name": "Base Price"
+          },
+          {
+            "amount": 575,
+            "name": "TAX"
+          }
+        ],
+        "gross": 3450,
+        "net": 2875,
+        "tax": 575
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 36,
+            "net": 30,
+            "tax": 6
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 336,
+            "net": 280,
+            "tax": 56
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        },
+        {
+          "key": "driverbringslabel",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Driver Brings Label",
+          "tags": [],
+          "metadata": {
+            "group": "Label"
+          }
+        }
+      ],
+      "tags": ["decorated"],
+      "metadata": {
+        "Group": "Medium",
+        "Rating:Reliability": 3,
+        "Rating:Delivery": 3.5,
+        "Rating:Popularity": 3
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-18"
+          },
+          "delivery": {
+            "dateMin": "2024-04-21",
+            "dateMax": "2024-04-23"
+          },
+          "cutoffUtc": "2024-04-18T15:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-19"
+          },
+          "delivery": {
+            "dateMin": "2024-04-22",
+            "dateMax": "2024-04-24"
+          },
+          "cutoffUtc": "2024-04-19T15:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-22"
+          },
+          "delivery": {
+            "dateMin": "2024-04-25",
+            "dateMax": "2024-04-27"
+          },
+          "cutoffUtc": "2024-04-22T15:45:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 20,
+        "minWeight": 0,
+        "maxVolumetricWeight": 20,
+        "maxLengthPlusGirth": 125
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 10
+            },
+            {
+              "percentagePriceUnits": 5.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "dx-24",
+        "name": "DX24",
+        "courier": "DX",
+        "courierSlug": "dx"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 640,
+            "name": "Base Price"
+          },
+          {
+            "amount": 128,
+            "name": "TAX"
+          }
+        ],
+        "gross": 768,
+        "net": 640,
+        "tax": 128
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 12,
+            "net": 10,
+            "tax": 2
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 72,
+            "net": 60,
+            "tax": 12
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        }
+      ],
+      "tags": ["volumetricweight", "decorated"],
+      "metadata": {
+        "Group": "Fast",
+        "Rating:Reliability": 3,
+        "Rating:Delivery": 4,
+        "Rating:Popularity": 5
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-17"
+          },
+          "delivery": {
+            "dateMin": "2024-04-20",
+            "dateMax": "2024-04-22"
+          },
+          "cutoffUtc": "2024-04-17T17:00:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 15,
+        "minWeight": 0,
+        "maxHeight": 60,
+        "maxWidth": 60,
+        "maxVolumetricWeight": 25,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 90
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 5
+            },
+            {
+              "percentagePriceUnits": 5.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "fedex-uk-express-dropoff_895",
+        "name": "FedEx UK Drop Off",
+        "courier": "FedEx Express",
+        "courierSlug": "fedex-express"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 400,
+            "name": "Base Price"
+          },
+          {
+            "amount": 80,
+            "name": "TAX"
+          }
+        ],
+        "gross": 480,
+        "net": 400,
+        "tax": 80
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 6,
+            "net": 5,
+            "tax": 1
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 48,
+            "net": 40,
+            "tax": 8
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        }
+      ],
+      "tags": [
+        "dropoff",
+        "requiresprinter",
+        "volumetricweight",
+        "paypointshop",
+        "decorated"
+      ],
+      "metadata": {
+        "Group": "Fast",
+        "DropOffProviderGroup": "FEDEX",
+        "Rating:Reliability": 4.5,
+        "Rating:Delivery": 4.5,
+        "Rating:Popularity": 39
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-17"
+          },
+          "delivery": {
+            "dateMin": "2024-04-20",
+            "dateMax": "2024-04-22"
+          },
+          "cutoffUtc": "2024-04-17T21:00:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 25,
+        "minWeight": 0,
+        "maxVolumetricWeight": 25,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 135
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 10
+            },
+            {
+              "percentagePriceUnits": 5.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "parcelforce-express-24-drop-off",
+        "name": "Parcelforce Worldwide Express 24 Drop Off",
+        "courier": "Parcelforce",
+        "courierSlug": "parcelforce"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 961,
+            "name": "Base Price"
+          },
+          {
+            "amount": 192,
+            "name": "TAX"
+          }
+        ],
+        "gross": 1153,
+        "net": 961,
+        "tax": 192
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 12,
+            "net": 10,
+            "tax": 2
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 108,
+            "net": 90,
+            "tax": 18
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        }
+      ],
+      "tags": ["dropoff", "requiresprinter", "decorated"],
+      "metadata": {
+        "Group": "Fast",
+        "DropOffProviderGroup": "PRCLFORCE",
+        "Rating:Reliability": 4.5,
+        "Rating:Delivery": 4.5,
+        "Rating:Popularity": 16
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-18"
+          },
+          "delivery": {
+            "dateMin": "2024-04-21",
+            "dateMax": "2024-04-23"
+          },
+          "cutoffUtc": "2024-04-18T23:59:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 2,
+        "minWeight": 0,
+        "maxHeight": 16,
+        "maxWidth": 35,
+        "maxVolumetricWeight": 999,
+        "maxVolume": 9000,
+        "maxLengthPlusGirth": 45
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 5000,
+              "fixedPriceUnits": 0
+            },
+            {
+              "percentagePriceUnits": 5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "royalmail-int_2606",
+        "name": "Royal Mail 48 Tracked Small",
+        "courier": "Royal Mail",
+        "courierSlug": "royal-mail"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 287,
+            "name": "Base Price"
+          },
+          {
+            "amount": 57,
+            "name": "TAX"
+          }
+        ],
+        "gross": 344,
+        "net": 287,
+        "tax": 57
+      },
+      "availableExtras": [
+        {
+          "key": "printinstore",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Print in Store",
+          "tags": [],
+          "metadata": {
+            "group": "Label"
+          }
+        },
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 5000,
+            "maxProtection": 5000,
+            "group": "Protection"
+          }
+        }
+      ],
+      "tags": [
+        "dropoff",
+        "printinstore",
+        "showdimensions",
+        "printinstore",
+        "decorated"
+      ],
+      "metadata": {
+        "Group": "Fast",
+        "DropOffProviderGroup": "ROYALMAIL",
+        "Rating:Reliability": 5,
+        "Rating:Delivery": 4.5,
+        "Rating:Popularity": 38
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-18"
+          },
+          "delivery": {
+            "dateMin": "2024-04-21",
+            "dateMax": "2024-04-23"
+          },
+          "cutoffUtc": "2024-04-18T20:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-19"
+          },
+          "delivery": {
+            "dateMin": "2024-04-22",
+            "dateMax": "2024-04-24"
+          },
+          "cutoffUtc": "2024-04-19T20:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-22"
+          },
+          "delivery": {
+            "dateMin": "2024-04-25",
+            "dateMax": "2024-04-27"
+          },
+          "cutoffUtc": "2024-04-22T20:45:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 15,
+        "minWeight": 0,
+        "maxVolumetricWeight": 15,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 120
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 5
+            },
+            {
+              "percentagePriceUnits": 5.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "hermes-uk-economy",
+        "name": "Evri Collection",
+        "courier": "Evri Collection",
+        "courierSlug": "hermes"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 243,
+            "name": "Base Price"
+          },
+          {
+            "amount": 49,
+            "name": "TAX"
+          }
+        ],
+        "gross": 292,
+        "net": 243,
+        "tax": 49
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 6,
+            "net": 5,
+            "tax": 1
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "signature",
+          "price": {
+            "gross": 108,
+            "net": 90,
+            "tax": 18
+          },
+          "name": "Signature",
+          "tags": [],
+          "metadata": {}
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 24,
+            "net": 20,
+            "tax": 4
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        },
+        {
+          "key": "smsalert",
+          "price": {
+            "gross": 36,
+            "net": 30,
+            "tax": 6
+          },
+          "name": "\uD83D\uDCF1 SMS Delivery Alert",
+          "tags": [],
+          "metadata": {
+            "defaultselected": false,
+            "requires": ["mobile"]
+          }
+        }
+      ],
+      "tags": ["requiresprinter", "saturdaycollection", "decorated"],
+      "metadata": {
+        "Group": "Slow",
+        "Rating:Reliability": 4,
+        "Rating:Delivery": 4.5,
+        "Rating:Popularity": 33
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-18"
+          },
+          "delivery": {
+            "dateMin": "2024-04-21",
+            "dateMax": "2024-04-23"
+          },
+          "cutoffUtc": "2024-04-18T20:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-19"
+          },
+          "delivery": {
+            "dateMin": "2024-04-22",
+            "dateMax": "2024-04-24"
+          },
+          "cutoffUtc": "2024-04-19T20:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-22"
+          },
+          "delivery": {
+            "dateMin": "2024-04-25",
+            "dateMax": "2024-04-27"
+          },
+          "cutoffUtc": "2024-04-22T20:45:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 25,
+        "minWeight": 0,
+        "maxHeight": 70,
+        "maxWidth": 70,
+        "maxVolumetricWeight": 25,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 110
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 10
+            },
+            {
+              "percentagePriceUnits": 6.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "parcelforce-by-10am",
+        "name": "Parcelforce Worldwide by 10am",
+        "courier": "Parcelforce",
+        "courierSlug": "parcelforce"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 1749,
+            "name": "Base Price"
+          },
+          {
+            "amount": 350,
+            "name": "TAX"
+          }
+        ],
+        "gross": 2099,
+        "net": 1749,
+        "tax": 350
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 12,
+            "net": 10,
+            "tax": 2
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 204,
+            "net": 170,
+            "tax": 34
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        },
+        {
+          "key": "driverbringslabel",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Driver Brings Label",
+          "tags": [],
+          "metadata": {
+            "group": "Label"
+          }
+        }
+      ],
+      "tags": ["decorated"],
+      "metadata": {
+        "Group": "Fast",
+        "Rating:Reliability": 3.5,
+        "Rating:Delivery": 4,
+        "Rating:Popularity": 0
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-17"
+          },
+          "delivery": {
+            "dateMin": "2024-04-20",
+            "dateMax": "2024-04-22"
+          },
+          "cutoffUtc": "2024-04-17T23:45:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 20,
+        "minWeight": 0,
+        "maxHeight": 60,
+        "maxWidth": 60,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 60
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 10
+            },
+            {
+              "percentagePriceUnits": 5.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "dhl-som-s2c-nd",
+        "name": "DHL UK - Drop Off",
+        "courier": "DHL Parcel",
+        "courierSlug": "dhlparcel"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 1100,
+            "name": "Base Price"
+          },
+          {
+            "amount": 220,
+            "name": "TAX"
+          }
+        ],
+        "gross": 1320,
+        "net": 1100,
+        "tax": 220
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 12,
+            "net": 10,
+            "tax": 2
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 132,
+            "net": 110,
+            "tax": 22
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        },
+        {
+          "key": "smsalert",
+          "price": {
+            "gross": 6,
+            "net": 5,
+            "tax": 1
+          },
+          "name": "\uD83D\uDCF1 SMS Delivery Alert",
+          "tags": [],
+          "metadata": {
+            "defaultselected": false,
+            "requires": ["mobile"]
+          }
+        }
+      ],
+      "tags": [
+        "dropoff",
+        "requiresprinter",
+        "volumetricweight",
+        "paypointshop",
+        "decorated"
+      ],
+      "metadata": {
+        "Group": "Fast",
+        "DropOffProviderGroup": "DHLSVCPNT",
+        "Rating:Reliability": 3,
+        "Rating:Delivery": 3,
+        "Rating:Popularity": 1
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-17"
+          },
+          "delivery": {
+            "dateMin": "2024-04-20",
+            "dateMax": "2024-04-22"
+          },
+          "cutoffUtc": "2024-04-17T11:00:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-18"
+          },
+          "delivery": {
+            "dateMin": "2024-04-21",
+            "dateMax": "2024-04-23"
+          },
+          "cutoffUtc": "2024-04-18T11:00:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 15,
+        "minWeight": 0,
+        "maxHeight": 40,
+        "maxWidth": 40,
+        "maxVolumetricWeight": 68,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 40
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 10
+            },
+            {
+              "percentagePriceUnits": 5.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "fedex-uk-express",
+        "name": "FedEx Next Day - Collection",
+        "courier": "FedEx Express",
+        "courierSlug": "fedex-express"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 400,
+            "name": "Base Price"
+          },
+          {
+            "amount": 80,
+            "name": "TAX"
+          }
+        ],
+        "gross": 480,
+        "net": 400,
+        "tax": 80
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 12,
+            "net": 10,
+            "tax": 2
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "signature",
+          "price": {
+            "gross": 60,
+            "net": 50,
+            "tax": 10
+          },
+          "name": "Signature",
+          "tags": [],
+          "metadata": {}
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 48,
+            "net": 40,
+            "tax": 8
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        }
+      ],
+      "tags": [
+        "requiresprinter",
+        "volumetricweight",
+        "paypointshop",
+        "decorated"
+      ],
+      "metadata": {
+        "Group": "Fast",
+        "DropOffProviderGroup": "FEDEX",
+        "Rating:Reliability": 3.5,
+        "Rating:Delivery": 4,
+        "Rating:Popularity": 3
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-17"
+          },
+          "delivery": {
+            "dateMin": "2024-04-20",
+            "dateMax": "2024-04-22"
+          },
+          "cutoffUtc": "2024-04-17T17:00:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 15,
+        "minWeight": 0,
+        "maxHeight": 60,
+        "maxWidth": 60,
+        "maxVolumetricWeight": 25,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 90
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 5
+            },
+            {
+              "percentagePriceUnits": 5.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "fedex-uk-express-dropoff",
+        "name": "FedEx Next Day Drop Off",
+        "courier": "FedEx Express",
+        "courierSlug": "fedex-express"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 1100,
+            "name": "Base Price"
+          },
+          {
+            "amount": 220,
+            "name": "TAX"
+          }
+        ],
+        "gross": 1320,
+        "net": 1100,
+        "tax": 220
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 6,
+            "net": 5,
+            "tax": 1
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 132,
+            "net": 110,
+            "tax": 22
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        }
+      ],
+      "tags": [
+        "dropoff",
+        "requiresprinter",
+        "volumetricweight",
+        "paypointshop",
+        "decorated"
+      ],
+      "metadata": {
+        "Group": "Fast",
+        "DropOffProviderGroup": "FEDEX",
+        "Rating:Reliability": 4.5,
+        "Rating:Delivery": 4,
+        "Rating:Popularity": 36
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-18"
+          },
+          "delivery": {
+            "dateMin": "2024-04-21",
+            "dateMax": "2024-04-23"
+          },
+          "cutoffUtc": "2024-04-18T20:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-19"
+          },
+          "delivery": {
+            "dateMin": "2024-04-22",
+            "dateMax": "2024-04-24"
+          },
+          "cutoffUtc": "2024-04-19T20:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-22"
+          },
+          "delivery": {
+            "dateMin": "2024-04-25",
+            "dateMax": "2024-04-27"
+          },
+          "cutoffUtc": "2024-04-22T20:45:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 25,
+        "minWeight": 0,
+        "maxHeight": 70,
+        "maxWidth": 70,
+        "maxVolumetricWeight": 25,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 110
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 10
+            },
+            {
+              "percentagePriceUnits": 6.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "parcelforce-express-am",
+        "name": "Parcelforce Worldwide Express AM",
+        "courier": "Parcelforce",
+        "courierSlug": "parcelforce"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 1149,
+            "name": "Base Price"
+          },
+          {
+            "amount": 230,
+            "name": "TAX"
+          }
+        ],
+        "gross": 1379,
+        "net": 1149,
+        "tax": 230
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 12,
+            "net": 10,
+            "tax": 2
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 132,
+            "net": 110,
+            "tax": 22
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        },
+        {
+          "key": "driverbringslabel",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Driver Brings Label",
+          "tags": [],
+          "metadata": {
+            "group": "Label"
+          }
+        }
+      ],
+      "tags": ["decorated"],
+      "metadata": {
+        "Group": "Fast",
+        "Rating:Reliability": 3.5,
+        "Rating:Delivery": 4,
+        "Rating:Popularity": 1
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-17"
+          },
+          "delivery": {
+            "dateMin": "2024-04-20",
+            "dateMax": "2024-04-22"
+          },
+          "cutoffUtc": "2024-04-17T11:30:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 30,
+        "minWeight": 0,
+        "maxVolumetricWeight": 30,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 80
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 5000,
+              "fixedPriceUnits": 0
+            },
+            {
+              "percentagePriceUnits": 5.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "ups-access-point-dap",
+        "name": "UPS Access Point™",
+        "courier": "UPS Access Point",
+        "courierSlug": "ups-access-point"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 400,
+            "name": "Base Price"
+          },
+          {
+            "amount": 80,
+            "name": "TAX"
+          }
+        ],
+        "gross": 480,
+        "net": 400,
+        "tax": 80
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 5000,
+            "maxProtection": 5000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 48,
+            "net": 40,
+            "tax": 8
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        }
+      ],
+      "tags": ["dropoff", "requiresprinter", "volumetricweight", "decorated"],
+      "metadata": {
+        "Group": "Fast",
+        "DropOffProviderGroup": "ACCESS",
+        "Rating:Reliability": 5,
+        "Rating:Delivery": 4,
+        "Rating:Popularity": 27
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-18"
+          },
+          "delivery": {
+            "dateMin": "2024-04-21",
+            "dateMax": "2024-04-23"
+          },
+          "cutoffUtc": "2024-04-18T23:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-19"
+          },
+          "delivery": {
+            "dateMin": "2024-04-22",
+            "dateMax": "2024-04-24"
+          },
+          "cutoffUtc": "2024-04-19T23:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-22"
+          },
+          "delivery": {
+            "dateMin": "2024-04-25",
+            "dateMax": "2024-04-27"
+          },
+          "cutoffUtc": "2024-04-22T23:45:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 2,
+        "minWeight": 0,
+        "maxHeight": 16,
+        "maxWidth": 35,
+        "maxVolumetricWeight": 999,
+        "maxVolume": 9000,
+        "maxLengthPlusGirth": 45
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 5000,
+              "fixedPriceUnits": 0
+            },
+            {
+              "percentagePriceUnits": 5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "royalmail-int_2606_2608_2609",
+        "name": "Royal Mail 24 Tracked Small Collection",
+        "courier": "Royal Mail",
+        "courierSlug": "royal-mail"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 332,
+            "name": "Base Price"
+          },
+          {
+            "amount": 66,
+            "name": "TAX"
+          }
+        ],
+        "gross": 398,
+        "net": 332,
+        "tax": 66
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 5000,
+            "maxProtection": 5000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "driverbringslabel",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Driver Brings Label",
+          "tags": [],
+          "metadata": {
+            "group": "Label"
+          }
+        }
+      ],
+      "tags": [
+        "saturdaycollection",
+        "showdimensions",
+        "forceaddressselection",
+        "decorated"
+      ],
+      "metadata": {
+        "Group": "Fast",
+        "DropOffProviderGroup": "ROYALMAIL",
+        "Rating:Reliability": 4,
+        "Rating:Delivery": 4.5,
+        "Rating:Popularity": 14
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-18"
+          },
+          "delivery": {
+            "dateMin": "2024-04-21",
+            "dateMax": "2024-04-23"
+          },
+          "cutoffUtc": "2024-04-18T20:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-19"
+          },
+          "delivery": {
+            "dateMin": "2024-04-22",
+            "dateMax": "2024-04-24"
+          },
+          "cutoffUtc": "2024-04-19T20:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-22"
+          },
+          "delivery": {
+            "dateMin": "2024-04-25",
+            "dateMax": "2024-04-27"
+          },
+          "cutoffUtc": "2024-04-22T20:45:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 25,
+        "minWeight": 0,
+        "maxVolumetricWeight": 25,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 135
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 30
+            },
+            {
+              "percentagePriceUnits": 6.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "parcelforce-multi-12-noon",
+        "name": "Parcelforce Worldwide Multi 12 Noon",
+        "courier": "Parcelforce",
+        "courierSlug": "parcelforce"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 1589,
+            "name": "Base Price"
+          },
+          {
+            "amount": 318,
+            "name": "TAX"
+          }
+        ],
+        "gross": 1907,
+        "net": 1589,
+        "tax": 318
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 36,
+            "net": 30,
+            "tax": 6
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 180,
+            "net": 150,
+            "tax": 30
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        },
+        {
+          "key": "driverbringslabel",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Driver Brings Label",
+          "tags": [],
+          "metadata": {
+            "group": "Label"
+          }
+        }
+      ],
+      "tags": ["volumetricweight", "decorated"],
+      "metadata": {
+        "Group": "Fast",
+        "Rating:Reliability": 3.5,
+        "Rating:Delivery": 3.5,
+        "Rating:Popularity": 1
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-18"
+          },
+          "delivery": {
+            "dateMin": "2024-04-21",
+            "dateMax": "2024-04-23"
+          },
+          "cutoffUtc": "2024-04-18T23:59:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 2,
+        "minWeight": 0,
+        "maxHeight": 16,
+        "maxWidth": 35,
+        "maxVolumetricWeight": 999,
+        "maxVolume": 9000,
+        "maxLengthPlusGirth": 45
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 5000,
+              "fixedPriceUnits": 0
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "royalmail-int_2606_2607",
+        "name": "Royal Mail 24 Tracked Small",
+        "courier": "Royal Mail",
+        "courierSlug": "royal-mail"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 345,
+            "name": "Base Price"
+          },
+          {
+            "amount": 69,
+            "name": "TAX"
+          }
+        ],
+        "gross": 414,
+        "net": 345,
+        "tax": 69
+      },
+      "availableExtras": [
+        {
+          "key": "printinstore",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Print in Store",
+          "tags": [],
+          "metadata": {
+            "group": "Label"
+          }
+        },
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 5000,
+            "maxProtection": 5000,
+            "group": "Protection"
+          }
+        }
+      ],
+      "tags": [
+        "dropoff",
+        "printinstore",
+        "showdimensions",
+        "printinstore",
+        "decorated"
+      ],
+      "metadata": {
+        "Group": "Fast",
+        "DropOffProviderGroup": "ROYALMAIL",
+        "Rating:Reliability": 5,
+        "Rating:Delivery": 4.5,
+        "Rating:Popularity": 16
+      }
+    },
+    {
+      "$type": "shipment",
+      "dates": [
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-18"
+          },
+          "delivery": {
+            "dateMin": "2024-04-21",
+            "dateMax": "2024-04-23"
+          },
+          "cutoffUtc": "2024-04-18T20:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-19"
+          },
+          "delivery": {
+            "dateMin": "2024-04-22",
+            "dateMax": "2024-04-24"
+          },
+          "cutoffUtc": "2024-04-19T20:45:00Z"
+        },
+        {
+          "type": "COLLECTION",
+          "collection": {
+            "date": "2024-04-22"
+          },
+          "delivery": {
+            "dateMin": "2024-04-25",
+            "dateMax": "2024-04-27"
+          },
+          "cutoffUtc": "2024-04-22T20:45:00Z"
+        }
+      ],
+      "restrictions": {
+        "maxWeight": 30,
+        "minWeight": 0,
+        "maxHeight": 70,
+        "maxWidth": 70,
+        "maxVolumetricWeight": 25,
+        "maxVolume": 99900,
+        "maxLengthPlusGirth": 135
+      },
+      "protection": {
+        "standard": {
+          "bands": [
+            {
+              "protectedAmount": 2000,
+              "fixedPriceUnits": 12
+            },
+            {
+              "percentagePriceUnits": 5.5
+            }
+          ]
+        }
+      },
+      "service": {
+        "slug": "parcelforce-express-48",
+        "name": "Parcelforce Worldwide Express 48",
+        "courier": "Parcelforce",
+        "courierSlug": "parcelforce"
+      },
+      "id": "QLAGTfDQST02pAmSqnz2UrA:0",
+      "currency": {
+        "code": "GBP",
+        "symbol": "£"
+      },
+      "price": {
+        "breakdown": [
+          {
+            "amount": 955,
+            "name": "Base Price"
+          },
+          {
+            "amount": 191,
+            "name": "TAX"
+          }
+        ],
+        "gross": 1146,
+        "net": 955,
+        "tax": 191
+      },
+      "availableExtras": [
+        {
+          "key": "protection:base",
+          "price": {
+            "gross": 14,
+            "net": 12,
+            "tax": 2
+          },
+          "name": "Protection",
+          "tags": [],
+          "metadata": {
+            "protectedAmount": 2000,
+            "maxProtection": 2000,
+            "group": "Protection"
+          }
+        },
+        {
+          "key": "deliveryguarantee",
+          "price": {
+            "gross": 108,
+            "net": 90,
+            "tax": 18
+          },
+          "name": "Delivery Guarantee",
+          "tags": [],
+          "metadata": {}
+        },
+        {
+          "key": "driverbringslabel",
+          "price": {
+            "gross": 0,
+            "net": 0,
+            "tax": 0
+          },
+          "name": "Driver Brings Label",
+          "tags": [],
+          "metadata": {
+            "group": "Label"
+          }
+        }
+      ],
+      "tags": ["decorated"],
+      "metadata": {
+        "Group": "Medium",
+        "Rating:Reliability": 3.5,
+        "Rating:Delivery": 4,
+        "Rating:Popularity": 14
+      }
+    }
+  ],
+  "success": true,
+  "validationErrors": {}
+}
