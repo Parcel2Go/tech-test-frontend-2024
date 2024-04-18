@@ -7,7 +7,7 @@ In order to start this project you will need to -
 - ⚙️ Run `npm install` and `npm run dev`
 - 📓 Once you have finished create a PR for your branch
 
-> Project MUST be run on port 3000, otherwise the API doesn't work (due to CORS)
+> Project MUST be run on localhost and port 3000 (https://localhost:3000), otherwise the API doesn't work (due to CORS)
 
 ## TODO
 
