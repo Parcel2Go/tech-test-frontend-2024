@@ -1,23 +1,28 @@
+import { useQuotes } from '../hooks/useQuotes';
+import { SearchFilters } from '../types/SearchFilters';
 import QuoteResult from './QuoteResult';
-import useSWR from 'swr';
 
-const fetcher = (url: string) => fetch(url, { headers: { 'X-Tenant': 'PARCEL2GO' } }).then((res) => res.json());
+export type ResultsProps = {
+  searchFilters: SearchFilters;
+};
 
-export default function Results() {
-  //TODO: 1. Replace with a custom hook that retrieves the Quotes from the API
-  const { data, error, isLoading } = useSWR(
-    'https://api.global.test.p2g.ninja/quote/shipments/GBR/GBR?weight=1.00&quantity=1',
-    fetcher
-  );
+export default function Results({ searchFilters }: ResultsProps) {
+  const { quotes, isLoading, error } = useQuotes({ searchFilters, quantity: 1 });
+
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error.message}</div>;
+  }
 
   return (
-    (isLoading && <div>Loading...</div>) || (
-      <div>
-        <h2>Results</h2>
-        {data.result.map((quote) => (
-          <QuoteResult key={quote.service.slug} quote={quote} />
-        ))}
-      </div>
-    )
+    <div>
+      <h2>Results</h2>
+      {quotes.map((quote) => (
+        <QuoteResult key={quote.service.slug} quote={quote} />
+      ))}
+    </div>
   );
 }
